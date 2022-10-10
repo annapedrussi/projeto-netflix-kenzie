@@ -1,0 +1,82 @@
+body {
+    background-color: #121214
+}
+.container{
+    text-align: center;
+    margin: 50px;
+}
+
+.lista-perfil {
+    text-align: center;
+    display: block;
+    width: 470px 210px;
+}
+
+.quem-esta-assistindo {
+    color: #fff;
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+}
+.card-perfil {
+    display: inline-block;
+    text-decoration: none;
+    width: 160px;
+    height: 160px;
+    margin: 10px;
+}
+
+.imagemPerfil{
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    border-radius: 8px;
+    width: 160px;
+    height: 160px;
+    overflow: hidden;
+}
+.imagemPerfil{ 
+    position: relative;
+    max-width: 200%;
+    transition: all 0.5s;
+}
+
+.imagemPerfil:hover{
+    transform: scale(1.2);
+}
+
+.nomePerfil{
+    display: inline-flex;
+    color: #9c9c9c;
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.menu-second{    
+    margin-top: 50px;
+}
+
+.menu-link-button {
+    text-decoration: none;
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 500;
+    color: #fff;
+    background: #121214;
+    border: 1.5px solid #ffff;
+    border-radius: 8px;
+    padding: 10px 44px;
+}
+
+a:hover{
+    text-decoration: none;
+    border-radius: 8px;
+    color: #000;
+    background: white;
+    font-size:100%;
+}
